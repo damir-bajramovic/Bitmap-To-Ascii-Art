@@ -8,6 +8,9 @@ namespace BMP_ASCII_NET_FRAMEWORK
 
         public PixelQuantizer()
         {
+            // TODO: Hardcoded array of characters
+            // TODO: Use grayscale: r,0,0 values => it can be done more easily, no need to input 64 characters - 16 will be more than enough
+            // TODO: Use some table for it
             char start = '0';
             const int MAP_DIM = 4;
             MAP = new char[MAP_DIM][][];

@@ -7,6 +7,9 @@ namespace BMP_ASCII_NET_FRAMEWORK
     {
         static void Main(string[] args)
         {
+            // TODO: Convert image to grayscale first
+            // TODO: Parallelize. Parallelize. Parallelize. 
+            // TODO: Make number grouped pixels configurable 
             Bitmap bmp = new Bitmap(@"C:\Users\Public\test.bmp");
             int width = bmp.Width.RoundDown();
             int height = bmp.Height.RoundDown();
